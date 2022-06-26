@@ -2,9 +2,9 @@ import { Highlighted } from '~/components'
 
 export default function Index() {
   return (
-    <main className="min-h-screen pt-20 md:pt-48 font-['Inter'] text-gray-300 leading-8">
+    <main className="flex justify-center items-center min-h-screen font-['Inter'] text-gray-300 leading-8">
       <article className="max-w-screen-md mx-auto px-6">
-        <h1 className="text-white text-3xl font-semibold">
+        <h1 className="text-white text-3xl font-semibold mt-6 md:mt-0">
           Hi, my name is Michael.
         </h1>
         <p className="mt-0">
