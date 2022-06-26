@@ -8,10 +8,12 @@ import {
   ScrollRestoration,
 } from '@remix-run/react'
 
-import styles from './tailwind.css'
+import tailwindStyles from './tailwind.css'
+import rootStyles from './root.css'
 
 export const links: LinksFunction = () => [
-  { rel: 'stylesheet', href: styles },
+  { rel: 'stylesheet', href: tailwindStyles },
+  { rel: 'stylesheet', href: rootStyles },
 
   // fonts
   // TODO: optimize this

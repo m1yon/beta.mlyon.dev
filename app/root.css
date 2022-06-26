@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900;
+}
+
+h1 {
+  @apply my-6
+}
+
+p {
+  @apply my-6
+}
+
+img {
+  @apply my-8
+}
+
+a {
+  @apply text-white hover:underline
+}
