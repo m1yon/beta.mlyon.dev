@@ -19,5 +19,5 @@ img {
 }
 
 a {
-  @apply text-white hover:underline
+  @apply text-white hover:underline;
 }

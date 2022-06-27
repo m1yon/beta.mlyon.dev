@@ -34,8 +34,8 @@ export default function Index() {
             COVID tracking for professional athletes
           </a>{' '}
           to{' '}
-          <a href="https://kinsta.com/">
-            fully-fledged cloud hosting platforms
+          <a href="https://kinsta.com/about-us/our-values/">
+            award-winning cloud hosting platforms
           </a>
           .
         </p>

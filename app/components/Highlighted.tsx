@@ -12,7 +12,7 @@ const Highlighted = ({ children, className, href }: Props) => {
       <a
         className={clsx(
           className || 'bg-blue-500 hover:bg-blue-400',
-          'px-2 py-0.5 text-white transition-all font-semibold rounded-md',
+          'px-2 py-0.5 text-white font-semibold rounded-md',
         )}
         href={href}
       >
@@ -25,7 +25,7 @@ const Highlighted = ({ children, className, href }: Props) => {
     <span
       className={clsx(
         className || 'bg-blue-500',
-        'px-2 py-0.5 text-white transition-all font-semibold rounded-md',
+        'px-2 py-0.5 text-white font-semibold rounded-md',
       )}
     >
       {children}
