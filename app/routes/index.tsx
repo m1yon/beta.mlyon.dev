@@ -20,7 +20,7 @@ export default function Index() {
         </p>
 
         <img
-          src="/img/cover.jpeg"
+          src="/img/cover.webp"
           alt="Michael in is element"
           className="saturate-50"
         />
