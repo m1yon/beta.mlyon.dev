@@ -9,13 +9,11 @@ import {
 } from '@remix-run/react'
 
 import tailwindStyles from './tailwind.css'
-import rootStyles from './root.css'
 
 export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: tailwindStyles },
-  { rel: 'stylesheet', href: rootStyles },
 
-  // fonts
+  // Fonts
   // TODO: optimize this
   { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
   {
