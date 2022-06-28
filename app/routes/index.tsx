@@ -1,3 +1,4 @@
+import type { HeadersFunction } from '@remix-run/node'
 import { Highlighted } from '~/components'
 
 export default function Index() {
@@ -43,4 +44,14 @@ export default function Index() {
       </article>
     </main>
   )
+}
+
+export const headers: HeadersFunction = ({
+  actionHeaders,
+  loaderHeaders,
+  parentHeaders,
+}) => {
+  return {
+    'Cache-Control': 'public, s-maxage=31536000',
+  }
 }
