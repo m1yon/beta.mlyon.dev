@@ -52,6 +52,6 @@ export const headers: HeadersFunction = ({
   parentHeaders,
 }) => {
   return {
-    'Cache-Control': 'public, s-maxage=31536000',
+    'Cache-Control': 'stale-while-revalidate=3.154e7',
   }
 }
