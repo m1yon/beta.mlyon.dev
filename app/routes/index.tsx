@@ -6,7 +6,7 @@ export default function Index() {
     <main className="flex justify-center items-center min-h-screen font-['Inter'] text-gray-300 leading-8">
       <article className="max-w-screen-md mx-auto px-6">
         <h1 className="text-white text-3xl font-semibold mt-6 md:mt-0">
-          Hi, my name is Michael.
+          Hi, my name is Michael!
         </h1>
         <p className="mt-0">
           I'm a{' '}
