@@ -5,7 +5,7 @@ export default function Index() {
   return (
     <main className="flex justify-center items-center min-h-screen font-['Inter'] text-gray-300 leading-8">
       <article className="animation-section-1 max-w-screen-md mx-auto px-6 my-12">
-        <h1 className="text-white text-3xl font-semibold">
+        <h1 className="text-white text-3xl font-semibold mb-2">
           Hi, my name is Michael.
         </h1>
         <p className="mt-0">
