@@ -24,6 +24,8 @@ export default function Index() {
           src="/img/cover.webp"
           alt="Michael in is element"
           className="saturate-50"
+          width={800}
+          height={533}
         />
         <p>
           I've built products ranging from{' '}
