@@ -21,3 +21,44 @@ img {
 a {
   @apply text-white hover:underline;
 }
+
+@keyframes fade-in {
+  from {
+    @apply opacity-0;
+  }
+  to {
+    @apply opacity-100;
+  }
+}
+
+.animation-section-1 {
+  @apply opacity-0;
+  animation-name: fade-in;
+  animation-delay: 0s;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards;
+}
+
+.animation-section-2 {
+  @apply opacity-0;
+  animation-name: fade-in;
+  animation-delay: 0.1s;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards;
+}
+
+.animation-section-3 {
+  @apply opacity-0;
+  animation-name: fade-in;
+  animation-delay: 0.2s;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards;
+}
+
+.animation-section-4 {
+  @apply opacity-0;
+  animation-name: fade-in;
+  animation-delay: .3s;
+  animation-duration: 0.75s;
+  animation-fill-mode: forwards;
+}

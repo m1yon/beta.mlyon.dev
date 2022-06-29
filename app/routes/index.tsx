@@ -4,7 +4,7 @@ import { Highlighted } from '~/components'
 export default function Index() {
   return (
     <main className="flex justify-center items-center min-h-screen font-['Inter'] text-gray-300 leading-8">
-      <article className="max-w-screen-md mx-auto px-6 my-12">
+      <article className="animation-section-1 max-w-screen-md mx-auto px-6 my-12">
         <h1 className="text-white text-3xl font-semibold">
           Hi, my name is Michael.
         </h1>
@@ -23,11 +23,11 @@ export default function Index() {
         <img
           src="/img/cover.webp"
           alt="Michael in is element"
-          className="saturate-50"
+          className="animation-section-2 saturate-50"
           width={800}
           height={533}
         />
-        <p>
+        <p className="animation-section-3">
           I've built products ranging from{' '}
           <a href="https://www.prnewswire.com/news-releases/electronic-caregiver-releases-addi-2-0--a-highly-intelligent-and-engaging-platform-designed-to-deliver-value-based-care-built-on-aws-addi-provides-100x-scalability-to-meet-the-surging-demand-for-telehealth-301385791.html">
             remote patient monitoring
@@ -42,7 +42,9 @@ export default function Index() {
           </a>
           .
         </p>
-        <p>My goal is to make the world a better place through software.</p>
+        <p className="animation-section-4">
+          My goal is to make the world a better place through software.
+        </p>
       </article>
     </main>
   )
