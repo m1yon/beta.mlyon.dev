@@ -4,8 +4,8 @@ import { Highlighted } from '~/components'
 export default function Index() {
   return (
     <main className="flex justify-center items-center min-h-screen font-['Inter'] text-gray-300 leading-8">
-      <article className="max-w-screen-md mx-auto px-6">
-        <h1 className="text-white text-3xl font-semibold mt-6 md:mt-0">
+      <article className="max-w-screen-md mx-auto px-6 my-12">
+        <h1 className="text-white text-3xl font-semibold">
           Hi, my name is Michael.
         </h1>
         <p className="mt-0">
