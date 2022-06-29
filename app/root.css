@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  @apply my-6
+  @apply my-4
 }
 
 p {
