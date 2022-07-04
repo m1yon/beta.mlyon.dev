@@ -35,13 +35,11 @@ export default function Index() {
           to{' '}
           <a href="https://www.krqe.com/health/coronavirus-new-mexico/new-mexico-company-creates-app-to-track-risks-in-covid-19-hotspots/">
             COVID tracking for professional athletes
-          </a>{' '}
-          to{' '}
-          <a href="https://kinsta.com/about-us/our-values/">
-            award-winning cloud hosting platforms
           </a>
-          .
+          . I'm currently a member of the{' '}
+          <a href="https://kinsta.com/mykinsta/">MyKinsta</a> core team.
         </p>
+
         <p className="animation-section-4">
           My goal is to make the world a better place through software.
         </p>
